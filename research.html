@@ -64,10 +64,22 @@
 							</section>
 							<section>
 								<header>
-									<h3>Tools Used</h3>
+									<h3>Introduction</h3>
 								</header>
 								<p>
-									Detailed information about research 1.
+									The model of this power converter can be divided into 3 parts: <strong> the input part </strong> that takes in eletrical energy and generates out light energy, <strong> the transition part </strong> that the light energy is transferred from the input side to the output side, and <strong> the output part </strong> that changes the light energy back into the electrical energy. When building the model, we used <strong>20 cells</strong> in total and developed three different designs:
+								</p>
+								<ul>
+								<li><strong>Input side:</strong> 20 cells in parallel</li>
+								<li><strong>Output side:</strong>
+									<ol>
+									<li> 20 cells in series </li>
+									<li> 2 cells in parallel as a group; 10 groups in series </li>
+									<li> 10 cells in parallel as a group; 2 groups in series </li>
+								</ol>
+								</ul>
+								<p>
+									<strong>LTSpice</strong> is used for simulating all these three models. We fixed the input power and varied the output load to find the maximum output power, which was then used to measure the efficiency while assuming the efficiency of eletricity &#8594 light &#8594 eletricity transferation is <strong> 0.5</strong>. 
 								</p>
 							</section>
 							<section>
@@ -75,7 +87,7 @@
 									<h3>Results</h3>
 								</header>
 								<p>
-									Detailed information about research 1.
+									The power loss is independent of the developed models. The efficiency of this light-based converter is limited to about <strong> 34% </strong>using commercially available components. 
 								</p>
 							</section>
 						</article>
@@ -106,7 +118,7 @@
 									<h3>Results</h3>
 								</header>
 								<p>
-									The detailed results are shown in the paper accepted by <strong>IEEE COMPEL 2023</strong>.
+									The detailed results are shown in a paper accepted by <strong>IEEE COMPEL 2023</strong>.
 								</p>
 							</section>
 						</article>
